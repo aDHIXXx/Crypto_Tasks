@@ -1,0 +1,10 @@
+We already know that the flag has crypto in it.
+So when '73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d' is changed from hex , we get the first alphabet of the crypted msg as 115.
+Now we have find a value when xored with 99( value of c) will give you 115
+The code for that:
+
+for i in range(1,1000):
+    if 99^i==115:
+       print(i)
+ Here i is 16  , so we have our key or single byte the msg was encrypted by.
+ pgm: fav.py

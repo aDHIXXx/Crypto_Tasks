@@ -1,0 +1,4 @@
+xor_propeties
+we learned about diff properties of xor
+pgm: to convert from hex an dthen xor 
+     her k1^k2^k3 is xored with flag^k1^k2^k3 to get flag as A^A=0
